@@ -22,3 +22,5 @@ item = input ("Informe a cidade a ser pesquisada: ") .strip () .title ()
 # Verifica quantas vezes o termo foi encontrado e o informa na tela
 
 print (f"{item} foi encontrado {cidades.count(item)} vezes na lista.")
+
+pass
