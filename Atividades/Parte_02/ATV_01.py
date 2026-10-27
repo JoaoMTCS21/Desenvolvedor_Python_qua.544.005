@@ -37,6 +37,7 @@ while True:
 
             usuario ['nome'] = input ("Informe o nome: ") .strip () .title ()
             usuario ['idade'] = int ( input ("Informe a idade: "))
+            usuario ['telefone'] = input ("Informe o número de telefone: ") .strip()
             usuario ['email'] = input ("Informe o email: ") .strip() .lower()
             usuario ['cpf'] = input ("Informe o cpf: ") .strip()
 
