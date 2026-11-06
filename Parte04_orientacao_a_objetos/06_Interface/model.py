@@ -74,16 +74,16 @@ class Conta (IConta):
 
     def consultar_conta (self):
         print (f"{'-' * 20} Dados da Conta {'-' * 20}")
-        print (f"Nome do titular: {self.__nome}")
-        print (f"CPF do titular: {self.__cpf}")
-        print (f"Agência: {self.__agencia}")
-        print (f"Conta: {self.__n_conta}")
-        print (f"Saldo: R$ {self.__saldo:.2f}")
+        print (f"Nome do titular: {self.titular}")
+        print (f"CPF do titular: {self.cpf}")
+        print (f"Agência: {self.agencia}")
+        print (f"Conta: {self.n_conta}")
+        print (f"Saldo: R$ {self.saldo:.2f}")
 
     def depositar (self, valor):
         self.__saldo += valor # saldo + valor
         return self.__saldo
 
     def sacar (self, valor):
-        self.__saldo += valor # saldo - valor
+        self.__saldo -= valor # saldo - valor
         return self.__saldo
