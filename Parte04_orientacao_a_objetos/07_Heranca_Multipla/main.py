@@ -23,6 +23,21 @@ def main ():
         caixa_preta=True
     )
 
+    limpar()
+    print(f"Câmbio: {carro_voador.cambio}")
+    print(f"Estepe: {carro_voador.estepe}")
+    print(f"Porta Malas: {carro_voador.porta_malas}")
+    print(f"Volante: {carro_voador.volante}")
+    print(f"Retrovisor: {carro_voador.retrovisor}")
+    print(f"Buzina: {carro_voador.buzina}")
+    print(f"Escapamento: {carro_voador.escapamento}")
+    print(f"Asa: {carro_voador.asa}")
+    print(f"Turbina: {carro_voador.turbina}")
+    print(f"Aerofólio: {carro_voador.aerofolio}")
+    print(f"Cauda: {carro_voador.cauda}")
+    print(f"Manche: {carro_voador.manche}")
+    print(f"Caixa Preta: {carro_voador.caixa_preta}")
+
 
 
 if __name__ == "__main__":
